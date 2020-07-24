@@ -4,8 +4,8 @@ def fact(n):
     if n==1:
         return n
     else:
-        return n*fact(n-1)
+        return n*fact(n-1)       #recursive function call
 
-n=int(input("Enter the number"))
+n=int(input("Enter the number"))       
 f=fact(n)
 print("Factorial is: ",f)
