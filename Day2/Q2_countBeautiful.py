@@ -1,5 +1,5 @@
 def countbeauty(*args):
-    f=open("//Users//hsuvasborkakoty//Downloads//Day 2 Assignment and Demo Codes//countWords.txt",'r')
+    f=open("//countWords.txt",'r')
     s=f.read()
     counts=dict()
     s.rstrip()
